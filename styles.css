@@ -1,0 +1,251 @@
+
+    nav{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        
+    }   
+    li{  
+     
+          list-style: none;
+          padding: 20px;
+    }
+    .list{
+    display: flex;
+    overflow: hidden;
+    
+    }
+    .a{
+          color: white;
+          text-decoration: none;
+    }
+    .img{
+        width: 80px;
+        border-radius: 115px;
+    }
+    .nav-items{
+        margin-left:600px;
+        margin-top: 20px;
+    }
+    .home{
+        background-color: black;
+    }
+    .about{
+        border-radius: 15px;
+        margin-bottom: 100px;
+    }
+    .size{
+        font-size: 70px;
+    }
+    .siz{
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+    .sizi{
+        font-size: 45px;
+
+    }
+    .image{
+        width: 360px;
+        height: 550px;
+        border-radius: 50%;
+    }
+
+    .flex{ 
+       justify-content: space-evenly;
+        display: flex;
+        padding-top: 55px;
+        height: 685px;
+    }
+    .ima{
+        height: 25rem;
+        border-radius: 25px;
+        padding: 5px;
+    }
+    .about{
+        margin: 50px;
+    }
+    .skills{
+        padding: 70px;
+    }
+    .padding{
+        padding-top: 40px;
+    }
+    .draw{
+        width: 300px;
+    }
+    .top{
+        margin-top: 50px;
+    }
+    .text{
+        border-left: 4px solid rgb(137, 38, 32);
+        border-bottom: 4px solid rgb(137, 38, 32);
+        padding-left: 8px;
+    }
+    .font{
+        margin-bottom: 50px;
+    }
+    .width{
+        width: 300rem;
+    }
+    .images{
+        width: 400px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    .name{
+        color: white;
+    }
+    .feedback-input {
+        color:white;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight:500;
+        font-size: 18px;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: transparent;
+        border:2px solid #CC6666;
+        transition: all 0.3s;
+        padding: 13px;
+        margin-bottom: 15px;
+        width:100%;
+        box-sizing: border-box;
+        outline:0;
+      }
+      
+      .feedback-input:focus { border:2px solid #CC4949; }
+      
+      textarea {
+        height: 150px;
+        line-height: 150%;
+        resize:vertical;
+      }
+      
+      [type="submit"] {
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        width: 100%;
+        background:#CC6666;
+        border-radius:5px;
+        border:0;
+        cursor:pointer;
+        color:white;
+        font-size:24px;
+        padding-top:10px;
+        padding-bottom:10px;
+        transition: all 0.3s;
+        margin-top:-4px;
+        font-weight:700;
+      }
+      [type="submit"]:hover { background:#CC4949; }
+      .btm{
+        width: 200px;
+      }
+      .padd{
+        padding: 40px;
+      }
+      .just{
+        display: flex;
+        justify-content: space-around;
+        border-right: 5px solid rgb(137, 38, 32);
+        border-bottom:  5px solid rgb(137, 38, 32);
+        padding-bottom: 50px;
+
+      }
+      .bordder{
+       border-radius: 10px;
+      }
+      .develop{
+        border:  3px solid #CC6666;
+        width: 23rem;
+        padding: 20px;
+      }
+      .develop:hover{
+        background-color: #e58080;
+        color: white;
+      }
+      .design:hover{
+        background-color: #e58080;
+        color: white;
+      }
+
+      .design{
+        border:  3px solid #CC6666;
+        width: 23rem;
+        padding: 20px;
+
+      }
+      .content:hover{
+        background-color: #e58080;
+        color: white;
+    }
+      .content{
+        border:  3px solid #CC6666;
+        width: 23rem;
+        padding: 20px;
+
+      }
+      .service{
+        justify-content: space-around;
+      }
+
+      @media
+       (min-width: 500px) and (max-width: 800px)
+        { 
+          .text1 {
+             display: none;
+          }
+        }
+        @media
+        (min-width: 200px) and (max-width: 500px)
+         { 
+           .text2 {
+              display: none;
+           }
+         }
+
+        @media  (min-width: 500px) and (max-width: 800px) {
+          .ima{
+            width: 400px;
+            height: 200px;
+            margin-top: 100px;
+          }
+        }
+        @media  (min-width: 100px) and (max-width: 500px) {
+          .ima{
+            width: 200px;
+            height: 120px;
+            margin-top: 100px;
+
+          }
+        }
+        @media (min-width: 100px) and (max-width: 800px) {
+          .intro1{
+            font-size: 20px;
+          } 
+           .intro2{
+            font-size: 30px;
+          } 
+           .intro3{
+            font-size: 40px;
+          }    
+           .intro4{
+            font-size: 20px;
+          }   
+
+          .nav-items{
+            margin-left: 10px;
+          }
+          .column{
+            flex-direction: column;
+          }
+          .abouts{
+            margin-top: 400px;
+          }
+          .others{
+            margin-top: 30px;
+          }
+          .draw{
+            width: 200px;
+          }
+        }
